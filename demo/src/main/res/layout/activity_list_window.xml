@@ -10,6 +10,11 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
-        app:titleTextColor="@android:color/white"/>
+        app:titleTextColor="@android:color/white" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/view_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>
